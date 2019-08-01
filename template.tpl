@@ -66,10 +66,6 @@ ___WEB_PERMISSIONS___
               {
                 "type": 1,
                 "string": "https://cdn.quantummetric.com/"
-              },
-              {
-                "type": 1,
-                "string": "https://cdn.quantummetric.com/qscripts/"
               }
             ]
           }
@@ -110,5 +106,4 @@ data.gtmOnSuccess();
 
 ___NOTES___
 
-Created on 7/31/2019, 5:28:07 PM
-
+Created on 8/1/2019, 1:38:57 PM
