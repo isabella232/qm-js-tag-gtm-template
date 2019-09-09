@@ -25,7 +25,14 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Sub Name",
     "simpleValueType": true,
     "name": "subName",
-    "type": "TEXT"
+    "type": "TEXT",
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      }
+    ],
+    "help": "Enter your QM sub name. For example, you'd enter amazingcompany if your QM URL was https://amazingcompany.quantummetric.com.",
+    "notSetText": "Sub Name is required"
   }
 ]
 
@@ -85,25 +92,30 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Enter your template code here.
 var log = require('logToConsole');
 var injectScript = require('injectScript');
+var encodeUriComponent = require('encodeUriComponent');
 
 
 const subName = data.subName;
-const url = "https://cdn.quantummetric.com/qscripts/quantum-"+subName+".js";
+log("subName: "+subName);
+
+const encSubName = encodeUriComponent(subName);
+log("encSubName: "+encSubName);
+
+const url = "https://cdn.quantummetric.com/qscripts/quantum-"+encSubName+".js";
 
 function onFailure() {
   log("Failed to load Quantum Metric library");
+  data.gtmOnFailure();
 }
 
 function onSuccess() {
   log("Loaded Quantum Metric library");
+  data.gtmOnSuccess();
 }
 
 injectScript(url, onSuccess, onFailure);
 
-// Call data.gtmOnSuccess when the tag is finished.
-data.gtmOnSuccess();
-
 
 ___NOTES___
 
-Created on 8/1/2019, 1:38:57 PM
+Created on 9/9/2019, 1:24:13 PM
