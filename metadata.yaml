@@ -1,0 +1,5 @@
+homepage: "https://www.quantummetric.com",
+documentation: "https://github.com/quantummetric/qm-js-tag-gtm-template",
+versions:
+  - sha: dc7368032794807179176c48f00aad3e5f8204dd
+    changeNotes: Initial Version
