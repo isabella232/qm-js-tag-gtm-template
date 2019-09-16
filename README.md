@@ -1,6 +1,10 @@
-# gtm-js-tag-template
+# Quantum Metric JS Tag Template
+
+![Quantum Metric](QuantumLogoSquare256.png)
 
 Google Tag Manager [template for the Quantum Metric JavaScript tag](https://github.com/quantummetric/qm-js-tag-gtm-template).
+
+# What's Quantum Metric?
 
 **Increase Revenue** Businesses typically leave 15% of revenue on the table due to negative customer experiences. Stay on top of digital performance and reclaim lost conversions with Quantum Metric’s user behavior insights.
 
@@ -11,5 +15,7 @@ Google Tag Manager [template for the Quantum Metric JavaScript tag](https://gith
 **Improve Customer Service** Avoid confusing conversations by providing your CSR team with everything they need to know to address customer concerns quickly and effectively.
 
 **Boost Brand Loyalty** Quantum Metric automatically identifies where you can improve conversions, by analyzing, for example, where customers are falling out of funnels, struggling with forms, affected by your site performance, or where content is engaging but not being reached due to site layout. Quantum Metric helps ensure your site is optimized for maximizing value to your customers.
+
+# Learn More
 
 Learn more at [QuantumMetric.com](https://www.quantummetric.com/) or dive into our docs at [support.quantummetric.com](https://support.quantummetric.com).
