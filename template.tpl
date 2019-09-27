@@ -9,6 +9,7 @@ ___INFO___
 {
   "displayName": "Quantum Metric JS Tag",
   "description": "JavaScript tag to capture high-fidelity user-experience data",
+  "categories": ["ANALYTICS", "HEAT_MAP", "SESSION_RECORDING"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
